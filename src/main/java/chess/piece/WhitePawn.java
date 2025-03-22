@@ -1,11 +1,12 @@
 package chess.piece;
 
+import chess.Color;
 import chess.Location;
 import java.util.List;
 
-public class King extends Piece {
+public class WhitePawn extends Piece {
 
-    public King(Location location, String name, PieceType pieceType) {
+    public WhitePawn(Location location, String name, PieceType pieceType) {
         super(location, name, pieceType);
     }
 
@@ -22,10 +23,7 @@ public class King extends Piece {
             return true;
         }
 
-        if (dx == -1 && dy == 0) {
-            return true;
-        }
-
         return dx == 1 && dy == 0;
     }
+
 }
