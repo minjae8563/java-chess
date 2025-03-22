@@ -1,7 +1,6 @@
 package chess.piece;
 
 import chess.Location;
-import java.util.List;
 
 public class King extends Piece {
 

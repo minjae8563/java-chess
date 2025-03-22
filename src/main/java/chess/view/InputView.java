@@ -1,12 +1,8 @@
 package chess.view;
 
 import chess.Location;
-import chess.piece.Bishop;
-import chess.piece.King;
 import chess.piece.Piece;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
 
 public class InputView {

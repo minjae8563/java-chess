@@ -1,8 +1,5 @@
 package chess;
 
-import chess.piece.Piece;
-import java.util.List;
-
 public class ChessBoard {
     private final Player whitePlayer;
     private final Player blackPlayer;

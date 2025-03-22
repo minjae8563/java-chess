@@ -1,10 +1,6 @@
 package chess.view;
 
-import chess.Location;
 import chess.Player;
-import chess.piece.Piece;
-import java.util.List;
-import java.util.Scanner;
 
 public class OutputView {
 

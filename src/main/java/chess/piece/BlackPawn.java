@@ -1,8 +1,6 @@
 package chess.piece;
 
-import chess.Color;
 import chess.Location;
-import java.util.List;
 
 public class BlackPawn extends Piece {
 

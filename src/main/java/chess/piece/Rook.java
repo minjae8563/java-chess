@@ -1,9 +1,6 @@
 package chess.piece;
 
-import chess.Color;
 import chess.Location;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Rook extends Piece {
 
